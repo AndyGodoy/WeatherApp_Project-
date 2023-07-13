@@ -1,59 +1,86 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #f5f5f5;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  h1 {
-    margin: 0;
-  }
-  
-  form {
-    margin-top: 20px;
-  }
-  
-  input[type="text"] {
-    padding: 5px;
-    font-size: 16px;
-  }
-  
-  button {
-    padding: 5px 10px;
-    font-size: 16px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  #current-weather {
-    margin-bottom: 20px;
-  }
-  
-  .forecast-day {
-    display: inline-block;
-    width: calc(20% - 20px);
-    margin: 10px;
-    padding: 10px;
-    background-color: #f5f5f5;
-    text-align: center;
-  }
-  
-  .forecast-day h2 {
-    margin: 0;
-  }
-  
-  .forecast-day p {
-    margin: 5px 0;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: rgb(187, 233, 226);
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #aaf8d2;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 5px 10px;
+  font-size: 18px;
+  background-color: #0698b2;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+}
+
+#current-weather {
+  border-style: dotted solid;
+  border-width: thick;
+  margin-bottom: 20px;
+}
+
+.forecast-entry {
+  display: inline-block;
+  width: calc(20% - 20px);
+  margin: 5px;
+  padding: 5px;
+  background-color: #93dfd8;
+  border-color: black;
+  text-align: center;
+}
+
+.forecast-day h2 {
+  margin: 0;
+}
+
+.forecast-day p {
+  margin: 5px 0;
+}
+
+.weather-emoji {
+  font-size: 4rem; /* Adjust the size as needed */
+}
+
+#search-history {
+  margin-top: 10px;
+}
+
+#search-history button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #cbfbf4;
+  color: #050061;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+#search-history button.nav-button {
+  background-color: #0698b2;
+  color: #fff;
+}
