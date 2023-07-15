@@ -53,3 +53,4 @@ Allowing users to customize the units of measurement (e.g., Celsius or Fahrenhei
 
 This 5 Day Forecast App was created by Andy Godoy. Contributions and suggestions are welcome. Feel free to fork the repository and submit a pull request with your changes.
 
+![Screenshot 2023-07-14 at 9 08 06 PM](https://github.com/AndyGodoy/WeatherApp_Project-/assets/137041531/330542c1-523b-4e85-b366-f8fb8eb84c9f)
