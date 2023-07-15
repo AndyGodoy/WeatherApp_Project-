@@ -1,12 +1,12 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(187, 233, 226);
+  background-color: #edf1ff;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #aaf8d2;
+  background-color: #97bec7;
   padding: 20px;
   text-align: center;
 }
@@ -24,10 +24,11 @@ input[type="text"] {
   font-size: 16px;
 }
 
+
 button {
   padding: 5px 10px;
   font-size: 18px;
-  background-color: #0698b2;
+  background-color: #06b2a7;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -38,9 +39,8 @@ main {
 }
 
 #current-weather {
-  border-style: dotted solid;
-  border-width: thick;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
+  border: 5px solid black; /* Replace "black" with your desired border color */
 }
 
 .forecast-entry {
@@ -61,10 +61,6 @@ main {
   margin: 5px 0;
 }
 
-.weather-emoji {
-  font-size: 4rem; /* Adjust the size as needed */
-}
-
 #search-history {
   margin-top: 10px;
 }
@@ -76,6 +72,7 @@ main {
   color: #050061;
   border: none;
   cursor: pointer;
+  margin-top: 10px;
   margin-right: 5px;
   margin-bottom: 5px;
 }
@@ -84,3 +81,21 @@ main {
   background-color: #0698b2;
   color: #fff;
 }
+
+/* Weather Icons */
+.weather-emoji {
+  font-size: 48px;
+  display: inline-block;
+}
+
+/* Add specific classes for each weather icon */
+.wi-day-sunny:before {
+  content: "\f00d";
+}
+
+.wi-day-cloudy:before {
+  content: "\f002";
+}
+
+/* Add the remaining weather icons here */
+/* Replace the content value with the appropriate unicode for each icon */
