@@ -135,6 +135,7 @@ var uniqueDates = [];
 forecast.forEach(forecastData => {
 // Converts the date string from the forecast data into a JavaScript Date object and assigns it to the dateTime variable.
 var dateTime = new Date(forecastData.dt_txt);
+
 //  Converts the dateTime to a locale-specific date string and assigns it to the date variable.
 var date = dateTime.toLocaleDateString("en-US");
 
