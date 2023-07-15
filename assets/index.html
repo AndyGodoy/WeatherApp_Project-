@@ -2,42 +2,60 @@
 <html lang="en">
 
 <head>
+  <!-- Meta tags -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css">
+  <!-- Page title -->
   <title>Weather Forecast</title>
 </head>
 
 <body>
+  <!-- Weather icon -->
   <i class="wi wi-day-sunny"></i>
+
+  <!-- Header section -->
   <header>
+    <!-- Heading -->
     <h1>Weather Forecast</h1>
+    <!-- Search form -->
     <form id="search-form">
       <input type="text" id="searchInput" placeholder="Enter a city">
       <button type="submit" id="searchButton">Search</button>
     </form>
   </header>
 
-<main>
-  <div id="current-weather">
+  <!-- Main content section -->
+  <main>
+    <!-- Current weather -->
+    <div id="current-weather">
+      <!-- Heading -->
       <h2>Current Weather</h2>
+      <!-- Temperature -->
       <p>Temperature: <span id="temperature"></span></p>
+      <!-- Wind -->
       <p>Wind: <span id="wind"></span></p>
+      <!-- Humidity -->
       <p>Humidity: <span id="humidity"></span></p>
-  </div>
+    </div>
 
-  <div id="forecast">
+    <!-- 5-day forecast -->
+    <div id="forecast">
+      <!-- Heading -->
       <h2>5-Day Forecast</h2>
-      <div id="forecast-container" ></div>
+      <!-- Forecast container -->
+      <div id="forecast-container"></div>
 
+      <!-- Recent history -->
       <h3>Recent History</h3>
       <div id="search-history"></div>
       <div id="weather-icon"></div>
+    </div>
+  </main>
 
-  </div>
-</main>
-
-<script src="script.js"></script>
+  <!-- JavaScript file -->
+  <script src="script.js"></script>
 </body>
 
 </html>
